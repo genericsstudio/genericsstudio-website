@@ -8,7 +8,7 @@
     "ctaSecondary": "Leistungen ansehen",
     "meta": {
       "title": "Webagentur Wil SG | Web & Grafikdesign",
-      "description": "Massgeschneiderte Websites, Logos und Grafikdesign für KMUs und Restaurants in der Schweiz. Aus Wil SG. Schnell, individuell und unverkennbar. Ab 600 CHF."
+      "description": "Massgeschneiderte Websites, Logos und Grafikdesign für KMUs und Restaurants in der Schweiz. Aus Wil SG. Schnell, individuell und unverkennbar. Ab 800 CHF."
     }
   },
   "mission": {
@@ -51,14 +51,14 @@
   },
   "services": {
     "label": "Leistungen",
-    "title": "Vier Disziplinen.",
+    "title": "Drei Disziplinen.",
     "subtitle": "Ein Qualitätsstandard.",
     "more": "Mehr erfahren",
     "items": [
       {
         "number": "01",
         "title": "Webdesign & Entwicklung",
-        "description": "Massgeschneiderte Websites, die schnell laden, in der Suche ranken und Besucher zu Kunden machen. Ab 600 CHF.",
+        "description": "Massgeschneiderte Websites, die schnell laden, in der Suche ranken und Besucher zu Kunden machen. Ab 800 CHF.",
         "href": "/webdesign"
       },
       {
@@ -72,12 +72,6 @@
         "title": "Grafikdesign",
         "description": "Social Media Grafiken, Illustrationen, Werbemittel. Visuelle Inhalte, die den Scroll stoppen.",
         "href": "/graphicdesign"
-      },
-      {
-        "number": "04",
-        "title": "Printdesign",
-        "description": "Flyer, Visitenkarten, Broschüren, Menükarten. Druckfertige Dateien, präzise geliefert.",
-        "href": "/printdesign"
       }
     ]
   },
@@ -132,12 +126,6 @@
         "description": "Social Media Designs, Illustrationen, Werbegrafiken und mehr.",
         "startingPrice": "Ab 80 CHF",
         "link": "/graphicdesign"
-      },
-      {
-        "title": "Print Design",
-        "description": "Flyer, Karten, Broschüren, Menükarten und druckfertige Layouts.",
-        "startingPrice": "Ab 100 CHF",
-        "link": "/printdesign"
       }
     ]
   },
@@ -153,12 +141,26 @@
     "copyright": "All rights reserved.",
     "imprint": "Impressum",
     "links": [
-      { "label": "Home", "href": "/" },
-      { "label": "Webdesign", "href": "/webdesign" },
-      { "label": "Branding", "href": "/branding" },
-      { "label": "Grafikdesign", "href": "/graphicdesign" },
-      { "label": "Printdesign", "href": "/printdesign" },
-      { "label": "Kontakt", "href": "/contact" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Webdesign",
+        "href": "/webdesign"
+      },
+      {
+        "label": "Branding",
+        "href": "/branding"
+      },
+      {
+        "label": "Grafikdesign",
+        "href": "/graphicdesign"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
     ]
   },
   "contact": {
@@ -214,7 +216,7 @@
     "webdesign": {
       "meta": {
         "title": "Webdesign Wil SG | Für KMUs & Restaurants",
-        "description": "Professionelles Webdesign aus Wil SG für KMUs, Restaurants und kleine Unternehmen. Responsive, schnell und 100% individuell, kein Template. Ab 600 CHF."
+        "description": "Professionelles Webdesign aus Wil SG für KMUs, Restaurants und kleine Unternehmen. Responsive, schnell und 100% individuell, kein Template. Ab 800 CHF."
       },
       "header": {
         "title": "Webdesign",
@@ -228,27 +230,7 @@
           "title": "Noch nicht sicher, was gebraucht wird?",
           "description": "Kostenlose 30-Minuten-Beratung. Kein Druck, offener Austausch.",
           "button": "Termin vereinbaren"
-        },
-        "plans": [
-          {
-            "title": "Starter",
-            "description": "Ideal für kleine Projekte und einfache Webauftritte.",
-            "price": "Ab 600 CHF",
-            "features": ["Individuelles Webdesign", "Responsiv", "Basis SEO", "CMS Setup", "Bis 5 Seiten", "1 Monat Support"]
-          },
-          {
-            "title": "Business",
-            "description": "Fürs kleine Unternehmen mit mehr Anforderungen.",
-            "price": "Ab 1500 CHF",
-            "features": ["Individuelles Webdesign + leichte Branding Anpassungen", "Erweiterte SEO", "Blog/News Setup", "Analytics Integration", "Performance Optimierung", "2 Monate Support"]
-          },
-          {
-            "title": "Pro",
-            "description": "Fürs voll personalisierte, funktionsreiche Projekt.",
-            "price": "Ab 3000 CHF",
-            "features": ["UX Konzept + Custom UI", "Advanced SEO", "Automationen", "Mehrsprachigkeit", "Security Setup + Hosting Setup", "3 Monate Support"]
-          }
-        ]
+        }
       },
       "hosting": {
         "title": "Hosting & Wartung",
@@ -258,34 +240,14 @@
           "title": "Unsicher welcher Plan passt?",
           "description": "Kostenloses Gespräch — wir finden gemeinsam die richtige Lösung.",
           "button": "Termin vereinbaren"
-        },
-        "plans": [
-          {
-            "title": "Basic",
-            "description": "Alles was deine Website braucht, um sicher und schnell online zu bleiben.",
-            "price": "29 CHF/Mo.",
-            "features": ["Managed Hosting (SSD, CDN, SSL)", "Wöchentliche Backups", "Uptime-Monitoring 24/7", "Sicherheitsmonitoring", "Monatlicher Status-Report"]
-          },
-          {
-            "title": "Care",
-            "description": "Aktive Pflege damit deine Website immer auf dem neuesten Stand ist.",
-            "price": "79 CHF/Mo.",
-            "features": ["Alles aus Basic", "CMS- & Plugin-Updates", "1h Inhaltsänderungen pro Monat", "Performance-Check monatlich", "Prioritäts-Support (48h)"]
-          },
-          {
-            "title": "Ultra",
-            "description": "Vollständige Betreuung — du konzentrierst dich auf dein Geschäft.",
-            "price": "149 CHF/Mo.",
-            "features": ["Alles aus Care", "4h Inhaltsänderungen pro Monat", "SEO-Monitoring & Optimierungen", "Monatlicher Analytics-Bericht", "Prioritäts-Support (24h)"]
-          }
-        ]
+        }
       },
       "faq": {
         "title": "Häufige Fragen",
         "items": [
           {
             "question": "Was kostet eine Website bei Generics Studio?",
-            "answer": "Websites starten ab 600 CHF. Der Preis hängt vom Umfang ab: Anzahl Seiten, Funktionen und ob ein CMS integriert werden soll. Ein kostenloser Discovery-Call schafft Klarheit."
+            "answer": "Websites starten ab 800 CHF. Der Preis hängt vom Umfang ab: Anzahl Seiten, Funktionen und ob ein CMS integriert werden soll. Ein kostenloser Discovery-Call schafft Klarheit."
           },
           {
             "question": "Wie lange dauert die Erstellung einer Website?",
@@ -305,7 +267,7 @@
     "branding": {
       "meta": {
         "title": "Logodesign & Branding Wil SG",
-        "description": "Logoentwicklung und Markenidentität aus Wil SG für kleine Unternehmen und Restaurants in der Ostschweiz. Von Logo bis Brand Guidelines. Ab 300 CHF."
+        "description": "Logoentwicklung und Markenidentität aus Wil SG für kleine Unternehmen und Restaurants in der Ostschweiz. Von Logo bis Brand Guidelines. Ab 350 CHF."
       },
       "header": {
         "title": "Branding",
@@ -319,34 +281,14 @@
           "title": "Noch nicht sicher, was gebraucht wird?",
           "description": "Kostenlose 30-Minuten-Beratung. Kein Druck, offener Austausch.",
           "button": "Termin vereinbaren"
-        },
-        "plans": [
-          {
-            "title": "Basic",
-            "description": "Ideal für neue kleine Marken oder einfache Logoentwicklung.",
-            "price": "Ab 300 CHF",
-            "features": ["1 Logo Konzept", "2 Revisionen", "Farbschema Basis", "Typografie Vorschläge", "Export in allen Formaten"]
-          },
-          {
-            "title": "Identity",
-            "description": "Fürs stabile Markenfundament mit klarer visueller Linie.",
-            "price": "Ab 700 CHF",
-            "features": ["2 bis 3 Logo Konzepte", "Brand Colors Palette", "Typografie Setup", "Mini Styleguide (PDF)", "3 Revisionen"]
-          },
-          {
-            "title": "Full Branding",
-            "description": "Komplette Markenidentität mit allem drum und dran.",
-            "price": "Ab 1200 CHF",
-            "features": ["Logo Set + Varianten", "Farbpalette + Typografie System", "Brand Elements / Patterns", "Brand Guidelines Dokument", "Social Media Assets", "4 Revisionen"]
-          }
-        ]
+        }
       },
       "faq": {
         "title": "Häufige Fragen",
         "items": [
           {
             "question": "Was kostet ein Logo in der Schweiz?",
-            "answer": "Logoentwicklung startet ab 300 CHF. Ein vollständiges Branding-Paket mit Logo-System, Farben, Typografie und Guidelines ab 1200 CHF."
+            "answer": "Logoentwicklung startet ab 350 CHF. Ein vollständiges Branding-Paket mit Logo-System, Farben, Typografie und Guidelines ab 1500 CHF."
           },
           {
             "question": "Was beinhaltet ein Branding-Paket?",
@@ -366,7 +308,7 @@
     "graphicdesign": {
       "meta": {
         "title": "Grafikdesign Wil SG | Social Media",
-        "description": "Professionelles Grafikdesign aus Wil SG. Social Media Grafiken, Illustrationen und Werbemittel für KMUs und Restaurants in der Schweiz. Ab 80 CHF."
+        "description": "Professionelles Grafikdesign aus Wil SG. Social Media Grafiken, Illustrationen und Werbemittel für KMUs und Restaurants in der Schweiz. Ab 90 CHF."
       },
       "header": {
         "title": "Grafikdesign",
@@ -380,34 +322,14 @@
           "title": "Noch nicht sicher, was gebraucht wird?",
           "description": "Kostenlose 30-Minuten-Beratung. Kein Druck, offener Austausch.",
           "button": "Termin vereinbaren"
-        },
-        "plans": [
-          {
-            "title": "Starter",
-            "description": "Fürs schnelle, einfache Grafiken.",
-            "price": "Ab 80 CHF",
-            "features": ["1 Design (z. B. Social Post)", "2 Revisionen", "Export in allen Formaten"]
-          },
-          {
-            "title": "Creative",
-            "description": "Fürs regelmässige oder komplexere Grafiken.",
-            "price": "Ab 250 CHF",
-            "features": ["Bis 5 Grafiken", "Illustrationen optional", "Social Media Templates", "3 Revisionen"]
-          },
-          {
-            "title": "Pro Package",
-            "description": "Fürs volle Grafikpaket mit mehr Umfang.",
-            "price": "Ab 500 CHF",
-            "features": ["Bis 12 Grafiken", "Custom Illustrationen", "Brand Templates", "4 Revisionen"]
-          }
-        ]
+        }
       },
       "faq": {
         "title": "Häufige Fragen",
         "items": [
           {
             "question": "Was kostet professionelles Grafikdesign?",
-            "answer": "Einzelne Designs starten ab 80 CHF. Pakete mit bis zu 12 Grafiken ab 500 CHF. Kein Mindestvolumen für Einzelbestellungen."
+            "answer": "Einzelne Designs starten ab 90 CHF. Pakete mit bis zu 12 Grafiken ab 600 CHF. Kein Mindestvolumen für Einzelbestellungen."
           },
           {
             "question": "Kann ich auch einzelne Grafiken bestellen?",
@@ -420,67 +342,6 @@
           {
             "question": "Unterstützt ihr auch laufende Grafik-Bedürfnisse?",
             "answer": "Ja. Im Creative- und Pro-Paket erstellen wir mehrere Grafiken auf einmal, inklusive Brandtemplates, die du danach selbst weiterverwenden kannst."
-          }
-        ]
-      }
-    },
-    "printdesign": {
-      "meta": {
-        "title": "Printdesign Wil SG | Flyer & Visitenkarten",
-        "description": "Druckfertiges Printdesign aus Wil SG. Flyer, Visitenkarten, Broschüren und Menükarten für KMUs und Restaurants. Präzise und professionell. Ab 100 CHF."
-      },
-      "header": {
-        "title": "Printdesign",
-        "description": "Analog. Präzise. Unübersehbar."
-      },
-      "pricing": {
-        "title": "Preise",
-        "description": "Passende Pakete für jedes Projektvorhaben.",
-        "note": "Individuelle Angebote je nach Projektumfang möglich.",
-        "cta": {
-          "title": "Noch nicht sicher, was gebraucht wird?",
-          "description": "Kostenlose 30-Minuten-Beratung. Kein Druck, offener Austausch.",
-          "button": "Termin vereinbaren"
-        },
-        "plans": [
-          {
-            "title": "Basic",
-            "description": "Ideal für einzelne kleine Print Projekte.",
-            "price": "Ab 100 CHF",
-            "features": ["Einseitiges Design (Flyer, Karte etc.)", "Druckfertige Dateien", "2 Revisionen"]
-          },
-          {
-            "title": "Standard",
-            "description": "Fürs gängige Printmaterial für Unternehmen.",
-            "price": "Ab 250 CHF",
-            "features": ["Mehrseitige Designs oder Sets", "Visitenkarten + Flyer + Poster", "Druckoptimierung", "3 Revisionen"]
-          },
-          {
-            "title": "Premium",
-            "description": "Fürs volle Printpaket eines Unternehmens.",
-            "price": "Ab 500 CHF",
-            "features": ["Komplettes Print Set", "Broschüren / Menü Karten", "Sonderformate", "Professionelle Druckvorbereitung", "4 Revisionen"]
-          }
-        ]
-      },
-      "faq": {
-        "title": "Häufige Fragen",
-        "items": [
-          {
-            "question": "Was bedeutet individuelles Printdesign?",
-            "answer": "Individuell bedeutet: kein vorgefertigtes Template, kein Stock-Layout. Jedes Design wird speziell für deine Marke und dein Druckmaterial entwickelt."
-          },
-          {
-            "question": "Erhalte ich druckfertige Dateien?",
-            "answer": "Ja. Wir liefern CMYK-Dateien mit 300 DPI, korrektem Beschnittrand (3 mm) und eingebetteten Schriften. Kompatibel mit jedem professionellen Drucker."
-          },
-          {
-            "question": "Was kostet Printdesign in Wil SG?",
-            "answer": "Printdesign startet ab 100 CHF für einseitige Designs (Flyer, Visitenkarte). Vollständige Printpakete mit mehreren Formaten ab 500 CHF."
-          },
-          {
-            "question": "Kann ich das Design auch selbst bearbeiten?",
-            "answer": "Auf Anfrage liefern wir editierbare Vorlagen (z.B. in Canva oder InDesign), damit du Texte und Bilder selbst anpassen kannst."
           }
         ]
       }
@@ -509,17 +370,50 @@
         "heading": "Was du bekommst.",
         "description": "Kein Baukastensystem. Kein Plugin-Wirrwarr. Jede Website wird von Grund auf für dein Business entwickelt.",
         "stats": [
-          { "value": "+98", "label": "Lighthouse Score" },
-          { "value": "< 1s", "label": "Ladezeit" },
-          { "value": "0", "label": "WordPress Plugins" }
+          {
+            "value": "+98",
+            "label": "Lighthouse Score"
+          },
+          {
+            "value": "< 1s",
+            "label": "Ladezeit"
+          },
+          {
+            "value": "0",
+            "label": "WordPress Plugins"
+          }
         ],
         "items": [
-          { "number": "01", "title": "Blitzschnelle Ladezeiten", "description": "Kein JavaScript-Overhead, keine ungenutzten Plugins. Statisch generiert, global ausgeliefert. Unter 1 Sekunde ist Standard." },
-          { "number": "02", "title": "SEO von Anfang an", "description": "Semantisches HTML, Schema.org, Sitemap, optimierte Meta-Tags und Core Web Vitals im grünen Bereich. Als Fundament, nicht als Nachgedanke." },
-          { "number": "03", "title": "Sicherheit ohne Kompromisse", "description": "Keine WordPress-Angriffsfläche, keine veralteten Plugins, kein öffentliches Admin-Panel. Keine Datenbank, die man angreifen kann." },
-          { "number": "04", "title": "Vollständig responsiv", "description": "Mobile-first und auf allen Gerätegrössen getestet. Kein generisches Breakpoint-Raster, sondern ein Layout, das für dein Design gemacht wurde." },
-          { "number": "05", "title": "Einfache Inhaltsverwaltung", "description": "Auf Wunsch mit Headless CMS verbunden. Texte, Bilder und Seiten selbst bearbeiten, ohne technische Kenntnisse, ohne uns anzurufen." },
-          { "number": "06", "title": "Übergabe mit Dokumentation", "description": "Hosting, Domain, CMS und Code gehören dir. Mit verständlicher Anleitung, damit du weisst, was du hast, und nie von uns abhängig bist." }
+          {
+            "number": "01",
+            "title": "Blitzschnelle Ladezeiten",
+            "description": "Kein JavaScript-Overhead, keine ungenutzten Plugins. Statisch generiert, global ausgeliefert. Unter 1 Sekunde ist Standard."
+          },
+          {
+            "number": "02",
+            "title": "SEO von Anfang an",
+            "description": "Semantisches HTML, Schema.org, Sitemap, optimierte Meta-Tags und Core Web Vitals im grünen Bereich. Als Fundament, nicht als Nachgedanke."
+          },
+          {
+            "number": "03",
+            "title": "Sicherheit ohne Kompromisse",
+            "description": "Keine WordPress-Angriffsfläche, keine veralteten Plugins, kein öffentliches Admin-Panel. Keine Datenbank, die man angreifen kann."
+          },
+          {
+            "number": "04",
+            "title": "Vollständig responsiv",
+            "description": "Mobile-first und auf allen Gerätegrössen getestet. Kein generisches Breakpoint-Raster, sondern ein Layout, das für dein Design gemacht wurde."
+          },
+          {
+            "number": "05",
+            "title": "Einfache Inhaltsverwaltung",
+            "description": "Auf Wunsch mit Headless CMS verbunden. Texte, Bilder und Seiten selbst bearbeiten, ohne technische Kenntnisse, ohne uns anzurufen."
+          },
+          {
+            "number": "06",
+            "title": "Übergabe mit Dokumentation",
+            "description": "Hosting, Domain, CMS und Code gehören dir. Mit verständlicher Anleitung, damit du weisst, was du hast, und nie von uns abhängig bist."
+          }
         ]
       }
     },
@@ -528,19 +422,51 @@
         "heading": "Eine Marke ist ein System.",
         "description": "Ein Logo allein reicht nicht. Erst wenn Logo, Farbe, Typografie und Guidelines zusammenspielen, entsteht eine Marke, die im Gedächtnis bleibt.",
         "pillars": [
-          { "number": "01", "title": "Logo-System", "description": "Primär, sekundär und monochrom. Für jeden Kontext die richtige Variante, vom Briefkopf bis zum Instagram-Profil.", "visual": "logo" },
-          { "number": "02", "title": "Farbpalette", "description": "Primär-, Sekundär- und Neutraltöne in HEX, RGB und CMYK. Konsistenz auf jedem Kanal, jedem Medium.", "visual": "color" },
-          { "number": "03", "title": "Typografie", "description": "Zwei bis drei Schriften mit klarer Hierarchie. Überschriften, Fliesstext, Akzente, immer stimmig.", "visual": "type" },
-          { "number": "04", "title": "Brand Guidelines", "description": "Alle Regeln deiner Marke in einem Dokument. Für jeden Dienstleister, der je damit arbeitet.", "visual": "doc" }
+          {
+            "number": "01",
+            "title": "Logo-System",
+            "description": "Primär, sekundär und monochrom. Für jeden Kontext die richtige Variante, vom Briefkopf bis zum Instagram-Profil.",
+            "visual": "logo"
+          },
+          {
+            "number": "02",
+            "title": "Farbpalette",
+            "description": "Primär-, Sekundär- und Neutraltöne in HEX, RGB und CMYK. Konsistenz auf jedem Kanal, jedem Medium.",
+            "visual": "color"
+          },
+          {
+            "number": "03",
+            "title": "Typografie",
+            "description": "Zwei bis drei Schriften mit klarer Hierarchie. Überschriften, Fliesstext, Akzente, immer stimmig.",
+            "visual": "type"
+          },
+          {
+            "number": "04",
+            "title": "Brand Guidelines",
+            "description": "Alle Regeln deiner Marke in einem Dokument. Für jeden Dienstleister, der je damit arbeitet.",
+            "visual": "doc"
+          }
         ]
       },
       "features": {
         "heading": "So entsteht deine Marke.",
         "description": "Drei Phasen. Keine Überraschungen. Du weisst jederzeit, wo wir stehen und was als Nächstes kommt.",
         "steps": [
-          { "number": "01", "title": "Discovery & Briefing", "description": "Wir lernen dein Unternehmen, deine Zielgruppe und deine Mitbewerber kennen. Gemeinsam definieren wir Tonalität, Positionierung und visuelle Richtung. Du bekommst einen klaren Rahmen, bevor ein einziges Design entsteht." },
-          { "number": "02", "title": "Konzept & Gestaltung", "description": "Auf Basis des Briefings entwickeln wir Logo-Konzepte, Farbpalette und Typografie-System. Du siehst erste Entwürfe, gibst Feedback, wir verfeinern. Keine unendlichen Revisionsrunden, fokussiert, klar, effizient." },
-          { "number": "03", "title": "Übergabe & Guidelines", "description": "Du bekommst alle finalen Dateien in allen Formaten sowie ein vollständiges Brand-Guidelines-Dokument. Damit kannst du sofort loslegen, und jeder, der je mit deiner Marke arbeitet, weiss genau, wie." }
+          {
+            "number": "01",
+            "title": "Discovery & Briefing",
+            "description": "Wir lernen dein Unternehmen, deine Zielgruppe und deine Mitbewerber kennen. Gemeinsam definieren wir Tonalität, Positionierung und visuelle Richtung. Du bekommst einen klaren Rahmen, bevor ein einziges Design entsteht."
+          },
+          {
+            "number": "02",
+            "title": "Konzept & Gestaltung",
+            "description": "Auf Basis des Briefings entwickeln wir Logo-Konzepte, Farbpalette und Typografie-System. Du siehst erste Entwürfe, gibst Feedback, wir verfeinern. Keine unendlichen Revisionsrunden, fokussiert, klar, effizient."
+          },
+          {
+            "number": "03",
+            "title": "Übergabe & Guidelines",
+            "description": "Du bekommst alle finalen Dateien in allen Formaten sowie ein vollständiges Brand-Guidelines-Dokument. Damit kannst du sofort loslegen, und jeder, der je mit deiner Marke arbeitet, weiss genau, wie."
+          }
         ]
       }
     },
@@ -555,60 +481,68 @@
         "templateBadge": "Vorlage",
         "customBadge": "Custom",
         "templateStats": [
-          { "label": "Einzigartigkeit", "value": "0 %" },
-          { "label": "Markenkonformität", "value": "Keine" },
-          { "label": "Verwendung", "value": "50.000x" }
+          {
+            "label": "Einzigartigkeit",
+            "value": "0 %"
+          },
+          {
+            "label": "Markenkonformität",
+            "value": "Keine"
+          },
+          {
+            "label": "Verwendung",
+            "value": "50.000x"
+          }
         ],
         "customStats": [
-          { "label": "Einzigartigkeit", "value": "100 %" },
-          { "label": "Markenkonformität", "value": "Voll" },
-          { "label": "Verwendung", "value": "1x" }
+          {
+            "label": "Einzigartigkeit",
+            "value": "100 %"
+          },
+          {
+            "label": "Markenkonformität",
+            "value": "Voll"
+          },
+          {
+            "label": "Verwendung",
+            "value": "1x"
+          }
         ]
       },
       "features": {
         "heading": "Was wir liefern.",
         "description": "Von einem einzigen Social-Post bis zum vollständigen Grafikpaket. Alles custom, alles auf deine Marke zugeschnitten.",
         "items": [
-          { "title": "Social Media Designs", "description": "Posts, Stories und Thumbnails für Instagram, LinkedIn, Facebook. Optimiert für jede Plattform.", "icon": "social" },
-          { "title": "Werbebanner & Ads", "description": "Display-Ads und Social-Ad-Grafiken in allen gängigen Formaten. Auf Conversion ausgerichtet.", "icon": "ads" },
-          { "title": "Illustrationen", "description": "Individuelle Illustrationen für Website, Kampagnen oder Präsentationen. Von Icon bis Szene.", "icon": "illustration" },
-          { "title": "Brand Templates", "description": "Wiederverwendbare Vorlagen für Kommunikation und Marketing. Einmal aufgesetzt, dauerhaft nutzbar.", "icon": "template" },
-          { "title": "Präsentationen", "description": "Pitch Decks und Unternehmensfolien in PowerPoint oder Keynote. Professionell und einheitlich.", "icon": "presentation" },
-          { "title": "Icons & UI-Elemente", "description": "Custom Icon-Sets und Interface-Grafiken, die zu deiner Marke und deinem Produkt passen.", "icon": "icons" }
-        ]
-      }
-    },
-    "printdesign": {
-      "comparison": {
-        "heading": "Druckfertig oder druckfähig?",
-        "description": "Eine falsch aufbereitete Datei kostet Zeit, Geld und Nerven. Wir liefern Dateien, die beim ersten Mal funktionieren.",
-        "labelA": "Falsch aufbereitete Datei",
-        "labelB": "Professionelle Druckvorbereitung",
-        "captionA": "RGB-Farbraum, 72 DPI und fehlender Beschnittrand. Das Ergebnis: falsche Farben, unscharfe Kanten und Reklamationen.",
-        "captionB": "CMYK-Farbraum, 300 DPI, 3 mm Beschnittrand und korrekte ICC-Profile. Beim ersten Druck perfekt.",
-        "specsA": [
-          { "label": "Farbraum", "value": "RGB", "ok": false },
-          { "label": "Auflösung", "value": "72 DPI", "ok": false },
-          { "label": "Beschnittrand", "value": "Kein", "ok": false },
-          { "label": "Farbprofil", "value": "Unbekannt", "ok": false }
-        ],
-        "specsB": [
-          { "label": "Farbraum", "value": "CMYK", "ok": true },
-          { "label": "Auflösung", "value": "300+ DPI", "ok": true },
-          { "label": "Beschnittrand", "value": "3 mm", "ok": true },
-          { "label": "Farbprofil", "value": "ISO Coated v2", "ok": true }
-        ]
-      },
-      "features": {
-        "heading": "Was du bekommst.",
-        "description": "Kein DIY-Ausdruck, keine halbfertigen Layouts. Professionelles Printdesign, das bei jedem Drucker weltweit funktioniert.",
-        "items": [
-          { "number": "01", "title": "Druckfertige PDF-Dateien", "spec": "CMYK · 300 DPI · 3 mm Beschnittrand", "description": "CMYK-Farbraum, korrekter Beschnittrand, eingebettete Schriften. Kein Nachbearbeiten, keine Reklamation beim Drucker." },
-          { "number": "02", "title": "Mehrseitige Layouts", "spec": "Broschüren · Menükarten · Kataloge", "description": "Durchgängige Gestaltung über alle Seiten. Jede Seite aufeinander abgestimmt, jede Spalte ausgerichtet, jeder Abstand konsistent." },
-          { "number": "03", "title": "Visitenkarten & Briefpapier", "spec": "85 x 55 mm · DIN A4 · einseitig / doppelseitig", "description": "Corporate Identity im kleinen Format. Logo, Farbwelt und Typografie konsequent umgesetzt, ob einseitig oder doppelseitig." },
-          { "number": "04", "title": "Flyer & Plakate", "spec": "A6 – A0 · Digital- & Offsetdruck", "description": "Von A6 bis A0. Jedes Format korrekt angelegt, mit Sonderformaten auf Anfrage. Optimiert für Offset- und Digitaldruck." },
-          { "number": "05", "title": "Korrekte Farbprofile", "spec": "ISO Coated v2 · PSO Uncoated · Sonderprofile", "description": "Das passende Profil je nach Druckverfahren und Papier. Farben, die auf dem Papier so aussehen wie am Bildschirm." },
-          { "number": "06", "title": "Druckerei-Koordination", "spec": "Korrekturbogen · Farbprobe · Lieferung", "description": "Auf Wunsch koordinieren wir direkt mit deiner Druckerei: Korrekturbogen prüfen, Farbproben abnehmen, Lieferung sicherstellen." }
+          {
+            "title": "Social Media Designs",
+            "description": "Posts, Stories und Thumbnails für Instagram, LinkedIn, Facebook. Optimiert für jede Plattform.",
+            "icon": "social"
+          },
+          {
+            "title": "Werbebanner & Ads",
+            "description": "Display-Ads und Social-Ad-Grafiken in allen gängigen Formaten. Auf Conversion ausgerichtet.",
+            "icon": "ads"
+          },
+          {
+            "title": "Illustrationen",
+            "description": "Individuelle Illustrationen für Website, Kampagnen oder Präsentationen. Von Icon bis Szene.",
+            "icon": "illustration"
+          },
+          {
+            "title": "Brand Templates",
+            "description": "Wiederverwendbare Vorlagen für Kommunikation und Marketing. Einmal aufgesetzt, dauerhaft nutzbar.",
+            "icon": "template"
+          },
+          {
+            "title": "Präsentationen",
+            "description": "Pitch Decks und Unternehmensfolien in PowerPoint oder Keynote. Professionell und einheitlich.",
+            "icon": "presentation"
+          },
+          {
+            "title": "Icons & UI-Elemente",
+            "description": "Custom Icon-Sets und Interface-Grafiken, die zu deiner Marke und deinem Produkt passen.",
+            "icon": "icons"
+          }
         ]
       }
     }

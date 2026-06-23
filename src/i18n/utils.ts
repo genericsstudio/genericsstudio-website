@@ -1,12 +1,9 @@
-import en from "../../messages/en.json";
 import de from "../../messages/de.json";
 
-type Messages = typeof en;
+type Messages = typeof de;
 
-const messages: Record<string, Messages> = { en, de };
-
-export function useTranslations(locale: string | undefined) {
-  const msgs = messages[locale ?? "de"] ?? messages.de;
+export function useTranslations(_locale?: string) {
+  const msgs: Messages = de;
 
   function t(key: string): string {
     const keys = key.split(".");
@@ -28,6 +25,3 @@ export function useTranslations(locale: string | undefined) {
 
   return { t, tRaw, msgs };
 }
-
-export const locales = ["de", "en"] as const;
-export type Locale = (typeof locales)[number];

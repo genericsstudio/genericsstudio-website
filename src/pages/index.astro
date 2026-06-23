@@ -7,13 +7,13 @@ import Process from "@/components/sections/Process.astro";
 import Pricing from "@/components/sections/Pricing.astro";
 import CTA from "@/components/sections/CTA.astro";
 import { useTranslations } from "@/i18n/utils";
+import { homePricingItems } from "@/config/pricing";
 
-const { t, tRaw } = useTranslations("de");
+const { t, tRaw } = useTranslations();
 
 type Benefit = { number: string; title: string; description: string };
 type ServiceItem = { number: string; title: string; description: string; href: string };
 type Step = { number: string; title: string; description: string };
-type PricingItem = { title: string; description: string; startingPrice: string; link: string };
 type PricingCta = { title: string; description: string; button: string };
 
 const siteUrl = "https://generics.studio";
@@ -76,7 +76,7 @@ const homeSchema = {
       subtitle={t("pricing.subtitle")}
       description={t("pricing.description")}
       cta={tRaw<PricingCta>("pricing.cta")}
-      items={tRaw<PricingItem[]>("pricing.items")}
+      items={homePricingItems}
     />
 
     <CTA

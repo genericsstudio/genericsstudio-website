@@ -6,10 +6,10 @@ import BrandingFeatures from "@/components/sections/BrandingFeatures.astro";
 import ServicePricing from "@/components/sections/ServicePricing.astro";
 import ServiceFAQ from "@/components/sections/ServiceFAQ.astro";
 import { useTranslations } from "@/i18n/utils";
+import { pricing, PRICES } from "@/config/pricing";
 
-const { t, tRaw } = useTranslations("de");
+const { t, tRaw } = useTranslations();
 
-type Plan = { title: string; description: string; price: string; features: string[] };
 type PricingCta = { title: string; description: string; button: string };
 type FaqItem = { question: string; answer: string };
 
@@ -38,7 +38,7 @@ const serviceSchema = {
     { "@type": "AdministrativeArea", name: "Kanton St. Gallen" },
     { "@type": "Country", name: "Schweiz" },
   ],
-  offers: { "@type": "AggregateOffer", lowPrice: "300", priceCurrency: "CHF", offerCount: "3" },
+  offers: { "@type": "AggregateOffer", lowPrice: String(PRICES.branding.logo), priceCurrency: "CHF", offerCount: "3" },
 };
 
 const breadcrumbSchema = {
@@ -68,7 +68,7 @@ const breadcrumbSchema = {
       description={t("pages.branding.pricing.description")}
       note={t("pages.branding.pricing.note")}
       cta={tRaw<PricingCta>("pages.branding.pricing.cta")}
-      plans={tRaw<Plan[]>("pages.branding.pricing.plans")}
+      plans={pricing.branding.plans}
     />
     <ServiceFAQ
       title={t("pages.branding.faq.title")}
